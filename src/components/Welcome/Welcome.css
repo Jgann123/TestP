@@ -1,0 +1,13 @@
+.Welcome_Flex_Box_Container, h1{
+  
+    font-size: 55px;
+    font-family: 'Times New Roman', serif;
+}
+@media screen and (max-width: 768px) {
+    .Welcome_Flex_Box_Container, h1{
+        font-size: 35px;
+        display: flex;
+        justify-content: center;
+        font-family: 'Times New Roman', serif;
+    }
+}
